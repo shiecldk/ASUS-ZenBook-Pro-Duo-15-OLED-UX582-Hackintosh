@@ -101,7 +101,8 @@ ADA Address: Ae2tdPwUPEZMsWbd5xpjBD9rvurtkdPq4p7mPZMsmbcbTR1wAhsYkGVMGza</p>
 ## Credits
 - Apple for macOS
 - acidanthera for OpenCore and most kexts
-- atrslb for many things I couldn't achieve 
+- atrslb for many things I couldn't achieve
 - gvkt for ScreenPad VoodooI2C fix
+- Qonfused for developing and maintaining the project
 - Rehabman
 - Many others
