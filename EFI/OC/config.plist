@@ -168,11 +168,27 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+				<string>Optional - SSDT-ARTC.aml (Fake Apple Realtime Clock)</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-ARTC.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>Optional - SSDT-DMAC.aml</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
 				<string>SSDT-DMAC.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Optional - SSDT-FWHD.aml (Fake Firmware Hub Device)</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-FWHD.aml</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
