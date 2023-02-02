@@ -32,7 +32,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>New Method - SSDT-SPLC.aml</string>
+				<string>New Method - SSDT-SPLC.aml (Adds Backlight Control for ASUS ScreenPad.)</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
@@ -40,7 +40,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>New Method - SSDT-PNLF.aml</string>
+				<string>New Method - SSDT-PNLF.aml (Adds Backlight Control for Laptop Screens.)</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
@@ -48,7 +48,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>New Method - SSDT-NWAK.aml</string>
+				<string>New Method - SSDT-NWAK.aml (Fixes wake problem with FN keys.)</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
@@ -80,7 +80,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Required - SSDT-ALSD.aml (Enabling Ambient Light Sensor)</string>
+				<string>Required - SSDT-ALSD.aml (Enables an existing one in macOS. Also included in OpenCorePkg.)</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
@@ -88,7 +88,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Required - SSDT-AWAC.aml</string>
+				<string>Required - SSDT-AWAC.aml (Disables AWAC system clock for macOS and force-enables RTC instead. For 300-series chipsets and newer. Also included in OpenCorePkg.)</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
@@ -104,7 +104,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Required - SSDT-DTGP.aml</string>
+				<string>Required - SSDT-DTGP.aml (Adds DTPG method. Only required when the method is addressed but not contained in the SSDT itself.)</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
@@ -112,7 +112,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Required - SSDT-EC-USBX.aml</string>
+				<string>Required - SSDT-EC-USBX.aml (Adds a fake Embedded Controller (SSDT-EC) and enables USB Power Management (SSDT-EC-USBX). Also included in OpenCorePkg.)</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
@@ -136,7 +136,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Required - SSDT-OC-XOSI.aml</string>
+				<string>Required - SSDT-OC-XOSI.aml (OS Compatibility Patch. Also included in OpenCorePkg.)</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
@@ -144,7 +144,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Required - SSDT-PLUG.aml</string>
+				<string>Required - SSDT-PLUG.aml (Enables XNU CPU power management (XCPM) for Intel CPUs (only required up to macOS 11). Also included in OpenCorePkg.)</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
@@ -160,7 +160,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Required - SSDT-TB3.aml</string>
+				<string>Required - SSDT-TB3.aml (Fixes Thunderbolt 3 ports.)</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
@@ -176,7 +176,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Optional - SSDT-ARTC.aml (Fake Apple Realtime Clock)</string>
+				<string>Optional - SSDT-ARTC.aml (Adds fake ARTC Device (Apple Realtime Clock) to IOReg. For Intel Core 9th Gen and newer. Uses same HID as AWAC.)</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
@@ -184,7 +184,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Optional - SSDT-DMAC.aml</string>
+				<string>Optional - SSDT-DMAC.aml (Adds fake DMA Controller to the device tree.)</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
@@ -192,7 +192,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Optional - SSDT-FWHD.aml (Fake Firmware Hub Device)</string>
+				<string>Optional - SSDT-FWHD.aml (Adds fake Firmware Hub Device (FWHD) to IOReg. Used by almost every intel-based Mac.)</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
@@ -200,7 +200,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Optional - SSDT-PMCR.aml</string>
+				<string>Optional - SSDT-PMCR.aml (Adds Apple exclusice PCMR Device to ACPI (required for 300-series only). Also included in OpenCorePkg.)</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
@@ -208,7 +208,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Optional - SSDT-SBUS-MCHC.aml</string>
+				<string>Optional - SSDT-SBUS-MCHC.aml (Fixes System Management Bus and Memory Controller in macOS. Also included in OpenCorePkg.)</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
@@ -216,7 +216,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Optional - SSDT-XSPI.aml</string>
+				<string>Optional - SSDT-XSPI.aml (Adds fake Intel PCH SPI Controller to IOReg. Present on 10th gen Macs (and some 9th Gen Mobile CPUs). Probably cosmetic, although uncertain.)</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
@@ -232,7 +232,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>WIP - SSDT-HPET.aml</string>
+				<string>WIP - SSDT-HPET.aml (Fixes IRQ conflicts. Required for on-board sound to work.)</string>
 				<key>Enabled</key>
 				<false/>
 				<key>Path</key>
@@ -248,7 +248,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Reference - SSDT-ALS0.aml</string>
+				<string>Reference - SSDT-ALS0.aml (Adds a fake Ambient Light Sensor in macOS. Also included in OpenCorePkg.)</string>
 				<key>Enabled</key>
 				<false/>
 				<key>Path</key>
@@ -264,7 +264,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Reference - SSDT-GPI0.aml</string>
+				<string>Reference - SSDT-GPI0.aml (Enables GPIO device.)</string>
 				<key>Enabled</key>
 				<false/>
 				<key>Path</key>
@@ -288,7 +288,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Not Required  - SSDT-MEM2.aml</string>
+				<string>Not Required  - SSDT-MEM2.aml (Adds MEM2 Device to iGPU (for 4th to 7th Gen Intel Core CPUs))</string>
 				<key>Enabled</key>
 				<false/>
 				<key>Path</key>
@@ -296,7 +296,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Not Required  - SSDT-PPMC.aml</string>
+				<string>Not Required  - SSDT-PPMC.aml (Adds fake Platform Power Management Controller to I/O Registry (100/200-series chipsets only).)</string>
 				<key>Enabled</key>
 				<false/>
 				<key>Path</key>
