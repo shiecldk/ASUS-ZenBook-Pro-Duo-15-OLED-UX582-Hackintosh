@@ -104,5 +104,6 @@ ADA Address: Ae2tdPwUPEZMsWbd5xpjBD9rvurtkdPq4p7mPZMsmbcbTR1wAhsYkGVMGza</p>
 - atrslb for many things I couldn't achieve
 - gvkt for ScreenPad VoodooI2C fix
 - Qonfused for developing and maintaining the project
+- [wern-apfel (as he complained here)](https://github.com/hieplpvip/AsusSMC/issues/108#issuecomment-1422929407) for some SSDTs for Qonfused's work
 - Rehabman
 - Many others
