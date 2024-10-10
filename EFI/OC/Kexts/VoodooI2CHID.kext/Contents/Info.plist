@@ -351,8 +351,6 @@
 			</array>
 			<key>IOClass</key>
 			<string>VoodooI2CTouchscreenHIDEventDriver</string>
-			<key>IOPCIMatch</key>
-			<string>0x2C5604f3&amp;0x2C2304f3</string>
 			<key>IOProbeScore</key>
 			<integer>400</integer>
 			<key>IOProviderClass</key>
