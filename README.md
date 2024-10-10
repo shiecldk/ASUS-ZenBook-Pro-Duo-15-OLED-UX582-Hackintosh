@@ -81,6 +81,13 @@ This repo is protected by GNU GPL license. Any commercial use of this project wi
 - [ ] Numpad (need to port driver from Linux; check <a href="https://github.com/mohamed-badaoui/asus-touchpad-numpad-driver">mohamed-badaoui/asus-touchpad-numpad-driver</a>)
 - [ ] Some other FN keys (WIP; check <a href="https://github.com/hieplpvip/AsusSMC">hieplpvip/AsusSMC</a>)
 
+## HiDPI on ScreenPad Plus in macOS Ventura
+To enable HiDPI on the ScreenPad Plus in macOS Ventura:
+
+1. Use [one-key-hidpi](https://github.com/xzhih/one-key-hidpi) to enable HiDPI.
+2. Use either [RDM](https://github.com/avibrazil/RDM) or SwitchResX to switch to HiDPI resolutions.
+
+Note: In macOS Ventura, only 2560x733 and 2048x587 HiDPI resolutions are currently working on the ScreenPad Plus. The previously functional 1920x550 (HiDPI) resolution is no longer available. The native resolution remains 3820x1100.
 
 
 ## Support this Project
